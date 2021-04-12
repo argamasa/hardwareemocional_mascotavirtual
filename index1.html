@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="https://d2w9rnfcy7mm78.cloudfront.net/11552294/original_cb05a14e32046a4874cbb98d3b8f6b52.png?1618213601?bc=0" />
+    <meta name="og:image" property="og:image" content="https://d2w9rnfcy7mm78.cloudfront.net/11552294/original_cb05a14e32046a4874cbb98d3b8f6b52.png?1618213601?bc=0" />
+    <title>Mascota Virtual</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style1.css">
   </head>
   <body>
@@ -15,16 +17,15 @@
       <div class="item-a">
         <img class="tienda" src="./tienda/tiendacomputadores.svg" alt="" />
         <img class="vendedor" src="./vendedores/vendedor_01.svg" alt="" />
-        <img id="Sprite" class="laptops" src="./laptops/00.svg" />
+        <img id="Sprite" class="laptops" src="./laptops/laptop_saludable.svg" />
       </div>
 
       <div id="MoneyCounter" class="money">
         <p>$<output type="inline" id="MoneyValue" value="0"></output></p>
       </div>
 
-      <marquee class="banner" behavior="scroll" direction="up" scrollamount="1"
-        >. COMPUTADORES / ACCESORIOS / PROGRAMAS / JUEGOS .</marquee
-      >
+      <marquee class="banner" behavior="scroll" direction="up" scrollamount="1"> 
+        ACCESORIOS / PROGRAMAS / JUEGOS </marquee>
 
       <div class="how">
         HOW TO PLAY:<br />Press the buttons to fill your pet's needs. <br />If
@@ -36,7 +37,7 @@
         </div>
 
         <div id="StatBladder">
-          <p>Velocidad de conexcion: <br /></p>
+          <p>Velocidad de conexión: <br /></p>
         </div>
 
         <div id="StatFun">
@@ -53,11 +54,26 @@
         <!--The Item shop-->
             <div> Item Shop </div>
             
-                <input id="item1" type="Button" value="Limpiar la papelera de reciclaje"><br/>
-                <small>Price: $150</small><br/>
-                <small>eliminar todos los <br> archivos de la papelera.</small><br/><br/>
-                <input id="item2" type="Button" value="Navegacion Incognita"><br/>
-                <small>Price: $200</small><br/>
+            <input type="image" src="./tienda/1x/antivirusAsset 7.png" name="saveForm" class="btTxt submit" id="saveForm" />
+            <small>Price: $250</small>
+
+            <input type="image" src="./tienda/1x/papeleraAsset 3.png" name="saveForm" class="btTxt submit" id="saveForm" />
+            <small>Price: $150</small>
+
+            <input type="image" src="./tienda/1x/incognitoAsset 5.png" name="saveForm" class="btTxt submit" id="saveForm" />
+            <small>Price: $1000</small>
+
+            <input type="image" src="./tienda/1x/nubeAsset 6.png" name="saveForm" class="btTxt submit" id="saveForm" />
+            <small>Price: $150</small>
+
+            <input type="image" src="./tienda/1x/ramAsset 4.png" name="saveForm" class="btTxt submit" id="saveForm" />
+            <small>Price: $300</small>
+
+                <input id="item1" type="Button" value="$150"><br/>
+                <img src="./tienda/1x/papeleraAsset 3.png"/>
+                <br/>
+                <input id="item2" type="Button" value="$200"><br/>
+                  <img src="./tienda/1x/incognitoAsset 5.png"/>
                 <small>permite navegar <br> en modo igcognito</small><br/><br/>
                 <input id="item3" type="Button" value="Eliminar Cache e historial de navegacion"><br/>
                 <small>Price: $300</small><br/>
@@ -76,8 +92,7 @@
                 <small>Price: $1000</small><br/>
                 <small>Comprar epsacio en cloud </small><br/>
                 <small>(Require antivirus.)<br/><br/>
-           
-            
+
         
         </div>
 

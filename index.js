@@ -55,16 +55,16 @@ window.onload = function() {
         //This function handles you pet's image
         function spriteHandler(){
             if(hunger==0&&bladder==0&&fun==0){
-                document.getElementById("Sprite").src = "./laptops/01.svg";
+                document.getElementById("Sprite").src = "./laptops/laptop_muerta.svg";
             }
             else if(cap==false&&crown==false){
-                document.getElementById("Sprite").src = "./laptops/03.svg";
+                document.getElementById("Sprite").src = "./laptops/laptop_trabajando.svg";
             }
             else if(cap==true&&crown==false){
-                document.getElementById("Sprite").src = "https://orig00.deviantart.net/808d/f/2018/049/b/1/cap_pet_asset_by_karukami1-dc3lzqh.png"
+                document.getElementById("Sprite").src = "./laptops/laptop_antivirus.svg"
             }
             else if(cap==true&&crown==true){
-                document.getElementById("Sprite").src = "https://orig00.deviantart.net/7216/f/2018/049/1/4/crown_pet_asset_by_karukami1-dc3lzql.png"
+                document.getElementById("Sprite").src = "./laptops/laptop_incognito.svg"
             }
         }
         

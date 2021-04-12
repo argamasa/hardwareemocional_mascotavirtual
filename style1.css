@@ -1,3 +1,16 @@
+
+body {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/11548203/original_90e3e0fe5a116d28747edd2f0ce1d436.png?1618177043?bc=0");
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+
 :root {
     font-size: calc(1vw + 1vh - 0.4vmin);
     --blackColor: rgb(0, 0, 100);
@@ -23,6 +36,8 @@
     background-color: black;
     text-shadow: 2px 1px grey;
     letter-spacing: 0.5rem;
+    text-align: center;
+    
 
 } 
 
@@ -46,19 +61,19 @@
   }
 
   .vendedor {
-    position: absolute;
-    top: 7%;
-    left: 6%;
-    width: 1357px;
-    width: 1369px;
+    position: fixed;
+    top: 13.5%;
+    left: 22%;
+    width: 1157px;
+    width: 1000px;
 }
 
 
 .laptops{
     position: absolute;
-    right: 45%;
-    width: 239px;
-    top: 345px;
+    right: 50%;
+    width: 200px;
+    top: 325px;
 
     z-index: 99999;
 }
