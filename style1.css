@@ -1,12 +1,11 @@
 
 body {
-  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/11548203/original_90e3e0fe5a116d28747edd2f0ce1d436.png?1618177043?bc=0");
+  background-image: url("./tienda/FondoTienda.png");
   background-attachment: scroll;
-  background-position: center center;
-  background-repeat: no-repeat;
+ 
+  background-repeat: repeat;
   background-attachment: fixed;
-  background-size: cover;
-  height: 100%;
+
   font-family: 'JetBrains Mono', monospace;
 }
 
@@ -21,10 +20,7 @@ body {
     --pinkColor: rgb(234, 20, 141);
     --greenColor: rgb(4, 255, 4);
   }
-  
-.money{
-    grid-area: money ;
-  }
+
  .banner {
 
     grid-area: banner;
@@ -41,10 +37,27 @@ body {
 
 } 
 
+#boutique1{
+  margin-top:50px !important;
+}
+#boutique2{
+  margin-top:50px !important;
+
+  margin-left:20px !important;
+}
+.afiche-2{
+  position: relative;
+  top:200px;
+}
+.afiche-3{
+  position: relative;
+  top:100px;
+}
 .ItemWindow{
     grid-area: item;
     padding-top: 30px;
     padding-left: 20px;
+ 
   }
 
   .how{
@@ -54,14 +67,15 @@ body {
   
   .item-a {
     grid-area: tienda;
+  
   }
 
   .tienda{
-      width: 100%;
+      width: 1197px;
   }
 
   .vendedor {
-    position: fixed;
+    position: absolute;
     top: 13.5%;
     left: 22%;
     width: 1157px;
@@ -87,11 +101,11 @@ body {
 .container {
     display: grid;
     margin: 20px;
-    grid-template-columns: 15% 400px 400px 400px 15%;
+    grid-template-columns: 1fr 1197px 400px;
     grid-template-rows: 100px 670px  ;
     grid-template-areas: 
-      "money banner banner banner item "
-      "description tienda tienda tienda item"
+      "description banner  item "
+      "description tienda item"
       
   }
   
@@ -202,6 +216,23 @@ body {
 
 }
 
-progress{
-    width: 500px;
+#HungerBar{
+
 }
+
+
+
+.cartel{
+  position: absolute;
+  bottom: 0;
+  left:180px;
+}
+
+.info{
+  position: absolute;
+  z-index: 99999;
+  bottom: 90px;
+  left: 328px;
+    font-size: 17px;
+}
+
