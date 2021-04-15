@@ -42,7 +42,7 @@ window.onload = function() {
         //If so, the Game Over pop-up appears
         function gameovercheck(){
             if(hunger==0&&bladder==0&&fun==0&&gameover==0){
-                alert("🥀☠️ me dejastes morir ☠️🥀");
+                //alert("🥀☠️ me dejastes morir ☠️🥀");
                 gameover++;
                 spriteHandler();
             }
