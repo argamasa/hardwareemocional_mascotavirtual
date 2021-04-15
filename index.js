@@ -10,11 +10,11 @@ window.onload = function() {
         var money = 0; //The player's money
         var moneyclock = setInterval(getMoney, 500); //Money increment speed
         var hunger = 100; //Hunger stat
-        var clock1 = setInterval(depleteH, 350); //Hunger decrement speed
+        var clock1 = setInterval(depleteH, 170); //Hunger decrement speed
         var bladder = 100; //Bladder stat
-        var clock2 = setInterval(depleteB, 360); //Bladder decrement speed
+        var clock2 = setInterval(depleteB, 200); //Bladder decrement speed
         var fun = 100; //Fun stat
-        var clock3 = setInterval(depleteF, 370); //Fun decrement stat
+        var clock3 = setInterval(depleteF, 80); //Fun decrement stat
         var cap = false; //Boolean to check if pet has the cap
         var crown = false; //Boolean to check if pet has the crown
         var gameover = 0; //Gameover checker, should've been a boolean instead
@@ -38,12 +38,11 @@ window.onload = function() {
         document.getElementById("boutique2").onclick = fCrown;
         
         //Functions galore!
-        
         //This function checks if all your stats are at zero
         //If so, the Game Over pop-up appears
         function gameovercheck(){
             if(hunger==0&&bladder==0&&fun==0&&gameover==0){
-                // alert("Game Over!");
+                alert("🥀☠️ me dejastes morir ☠️🥀");
                 gameover++;
                 spriteHandler();
             }

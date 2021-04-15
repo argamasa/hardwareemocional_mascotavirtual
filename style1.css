@@ -27,7 +27,7 @@ body {
     align-self: end;
     height: 40px;
     font-family: 'DotGothic16', sans-serif;
-    font-size: 27px;
+    font-size: 10px;
     color: red;
     background-color: black;
     text-shadow: 2px 1px grey;
@@ -234,5 +234,7 @@ body {
   bottom: 90px;
   left: 328px;
     font-size: 17px;
+    
+
 }
 
